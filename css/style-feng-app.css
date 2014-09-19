@@ -1,0 +1,28 @@
+
+.login-logo{ width: 200px;
+margin: auto; margin-top: 40px; margin-bottom: 40px;}
+.login-logo img{ margin: auto;  max-height:200px; width: 100%;}
+.login{margin: 15px; box-shadow: 0px 0px 3px #777777; border-radius: 3px;}
+
+@media (min-width: 100px) and (max-width: 1000px) {
+	.login-logo{ width: 100px;
+margin: auto;margin-top: 40px; margin-bottom: 40px;}
+	.login-logo img{ margin: auto;  max-height:100px; width: 100%;}
+	 }
+.login .mui-input-group .mui-input-row{height: 55px;}
+.login .mui-input-group .mui-input-row .mui-input-clear ~ .mui-icon-clear{position:absolute;top:16px;}
+.login .mui-input-group-top{ border-radius: 3px 3px 0 0; border: 0px;}
+.login .mui-input-group-bottom{ border-radius: 0px 0px 3px 3px;border: 0px;}
+
+.login-btn .mui-btn-block{  padding: 5px 0;}
+.login-btn{padding: 0px 15px;}
+
+.login-footer{margin: auto;text-align: center;  position:absolute;bottom: 10px; left: 0px;right: 0px;}
+.login-footer p{margin: 0px;
+overflow: hidden;
+text-overflow: ellipsis;
+width: auto;
+right: 40px;
+left: 40px;color: #fff; font-size: 9px;}
+
+.style-nav{background-image: linear-gradient(to bottom, #72cb72 0%, rgba(102, 195, 102, 1) 100%);}
